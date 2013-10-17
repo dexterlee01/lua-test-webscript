@@ -1,4 +1,0 @@
-
-
-local luatest = "This is a test"
-

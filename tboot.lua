@@ -1,1 +1,3 @@
-return "this is a test"
+package.path = (package.path .. ';lib/?.lua')
+require ('./test/ec2')
+
