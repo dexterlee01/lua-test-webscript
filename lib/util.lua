@@ -1,5 +1,4 @@
 local class = require ('class')
-local io = require ('io')
 local json = require ('deps.dkjson')
 local xml_parser_factory = require ('deps.slaxml')
 local xml_build = require ('deps.slaxdom')
