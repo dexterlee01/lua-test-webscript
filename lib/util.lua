@@ -4,7 +4,7 @@ local xml_parser_factory = require ('deps.slaxml')
 local xml_build = require ('deps.slaxdom')
 local sha1 = require ('deps.sha1')
 local curl_ok,curl = pcall(require, 'cURL')
-local luasocket_ok, luasocket_http = pcall(require, 'socket.http')
+local luasocket_ok, luasocket_http = http
 
 local _M = {}
 
