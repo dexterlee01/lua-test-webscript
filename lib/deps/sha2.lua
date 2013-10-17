@@ -1,4 +1,4 @@
-local bit = _G.bit or require ('bit')
+local bit = _G.bit
 local band, rrotate, bxor, rshift, bnot =
   bit.band, bit.ror, bit.bxor, bit.rshift, bit.bnot
 
