@@ -1,1 +1,1 @@
-local git = "this is a test"
+return "this is a test"
